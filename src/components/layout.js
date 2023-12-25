@@ -23,7 +23,7 @@ const Layout = () => {
           </li>
 
           <li className="mx-2 montserrat hover:text-slate-500 2xl:text-2xl 3xl:text-4xl">
-            <Link to="/contact">Reviews</Link>
+            <Link to="/reviews">Reviews</Link>
           </li>
           <li className="montserrat hover:text-slate-500 2xl:text-2xl 3xl:text-4xl">
             <Link to="/contact">Contact</Link>
