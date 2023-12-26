@@ -18,7 +18,7 @@ const Layout = () => {
 
           <li className="flex-grow-0 flex-shrink-0 mx-2 ">
             <div className="border bg-black p-4 relative bottom-[-1em] border-white">
-              <h2 className="parisienne text-white text-3xl 2xl:text-4xl 3xl:text-5xl">First Light</h2>
+              <h1 className="parisienne text-white text-3xl 2xl:text-4xl 3xl:text-5xl">First Light</h1>
             </div>
           </li>
 
