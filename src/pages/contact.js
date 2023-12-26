@@ -27,23 +27,23 @@ const ContactForm = () => {
         <FontAwesomeIcon icon={faEnvelope} className="mx-auto text-5xl" />
       </div>
       <form name="contact" method="POST" action="/successpage" className="max-w-lg mx-auto montserrat" onSubmit={handleSubmit}>
-      <div class="form my-4">
+      <div className="form my-4">
         <input type="hidden" name="form-name" value="contact"/>
-        <input type="text" name="name" autocomplete="off" id="name" required />
-        <label for="name" class="label-name">
-          <span class="content-name">Your Name</span>
+        <input type="text" name="name" autoComplete="off" id="name" required />
+        <label htmlFor="name" className="label-name">
+          <span className="content-name">Your Name</span>
         </label>
       </div>
-      <div class="form my-4">
-        <input type="text" name="email" autocomplete="off" required id="email" />
-        <label for="email" class="label-name">
-          <span class="content-name">Your Email</span>
+      <div className="form my-4">
+        <input type="text" name="email" autoComplete="off" required id="email" />
+        <label htmlFor="email" className="label-name">
+          <span className="content-name">Your Email</span>
         </label>
       </div>
-      <div class="form my-4">
-        <input type="text" name="message" autocomplete="off" required id="message"/>
-        <label for="message" class="label-name">
-          <span class="content-name">Your Enquiry</span>
+      <div className="form my-4">
+        <input type="text" name="message" autoComplete="off" required id="message"/>
+        <label htmlFor="message" className="label-name">
+          <span className="content-name">Your Enquiry</span>
         </label>
       </div>
       <button type="submit" className="text-black bg-white hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center my-6">
