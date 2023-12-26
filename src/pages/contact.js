@@ -3,32 +3,30 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const ContactForm = () => {
-  const handleSubmit = (e) => {
 
-    alert("Form submitted");
-  };
 
   return (
     <div className="bg-black text-white p-8 w-3/4 mx-auto rounded-xl  my-5">
       <div className="icon-container flex justify-center">
         <FontAwesomeIcon icon={faEnvelope} className="mx-auto text-5xl" />
       </div>
-      <form onSubmit={handleSubmit} className="max-w-lg mx-auto montserrat">
+      <form name="contact" method="POST" className="max-w-lg mx-auto montserrat">
       <div class="form my-4">
-        <input type="text" name="text" autocomplete="off" required />
-        <label for="text" class="label-name">
+        <input type="hidden" name="form-name" value="contact"/>
+        <input type="text" name="name" autocomplete="off" id="name" required />
+        <label for="name" class="label-name">
           <span class="content-name">Your Name</span>
         </label>
       </div>
       <div class="form my-4">
-        <input type="text" name="text" autocomplete="off" required />
-        <label for="text" class="label-name">
+        <input type="text" name="email" autocomplete="off" required id="email" />
+        <label for="email" class="label-name">
           <span class="content-name">Your Email</span>
         </label>
       </div>
       <div class="form my-4">
-        <input type="text" name="text" autocomplete="off" required />
-        <label for="text" class="label-name">
+        <input type="text" name="message" autocomplete="off" required id="message"/>
+        <label for="message" class="label-name">
           <span class="content-name">Your Enquiry</span>
         </label>
       </div>
