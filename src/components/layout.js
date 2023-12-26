@@ -30,7 +30,7 @@ const Layout = () => {
           </li>
         </ul>
       </nav>
-      <nav className="w-full sticky z-5 top-0 border bg-white/30 backdrop-blur-lg shadow-lg block md:hidden ">
+      <nav className="w-full sticky z-5 top-0 border bg-white/60 backdrop-blur-lg shadow-lg block md:hidden ">
         <ul className="flex flex-row ">
           <li className="pb-4 px-3">
             <input
