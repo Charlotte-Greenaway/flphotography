@@ -1,16 +1,32 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
+import { useNavigate } from 'react-router-dom';
 const ContactForm = () => {
+    const navigate = useNavigate();
 
+    const handleSubmit = async (event) => {
+      event.preventDefault();
+      const formData = new FormData(event.target);
+  
+      try {
+        await fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(formData).toString(),
+        });
+        navigate('/success'); // Navigate to the success page
+      } catch (error) {
+        // Handle the error
+      }
+    };
 
   return (
     <div className="bg-black text-white p-8 w-3/4 mx-auto rounded-xl  my-5">
       <div className="icon-container flex justify-center">
         <FontAwesomeIcon icon={faEnvelope} className="mx-auto text-5xl" />
       </div>
-      <form name="contact" method="POST" action="/successpage" className="max-w-lg mx-auto montserrat">
+      <form name="contact" method="POST" action="/successpage" className="max-w-lg mx-auto montserrat" onSubmit={handleSubmit}>
       <div class="form my-4">
         <input type="hidden" name="form-name" value="contact"/>
         <input type="text" name="name" autocomplete="off" id="name" required />
