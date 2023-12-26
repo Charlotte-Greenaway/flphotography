@@ -15,7 +15,7 @@ const ContactForm = () => {
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: new URLSearchParams(formData).toString(),
         });
-        navigate('/success'); // Navigate to the success page
+        navigate('/successpage'); // Navigate to the success page
       } catch (error) {
         // Handle the error
       }
