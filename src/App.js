@@ -17,7 +17,7 @@ function App() {
           <Route path="gallery" element={<GalleryPage />} />
           <Route path="reviews" element={<FacebookReviews />} />
           <Route path="contact" element={<ContactForm />} />
-          <Route path="success" element={<SuccessPage />} />
+          <Route path="successpage" element={<SuccessPage />} />
 
           <Route path="*" element={<NoPage />} />
         </Route>
