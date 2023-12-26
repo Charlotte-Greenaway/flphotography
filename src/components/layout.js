@@ -40,7 +40,7 @@ const Layout = () => {
               checked={isMenuOpen}
               onChange={toggleMenu}
             />
-            <label for="checkbox4">
+            <label htmlFor="checkbox4">
               <div className="hamburger hamburger4">
                 <span className="bar bar1"></span>
                 <span className="bar bar2"></span>
@@ -63,26 +63,26 @@ const Layout = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="my-10 montserrat" onClick={toggleMenu}>
-            <Link to="/">Gallery</Link>
+            <Link to="/gallery">Gallery</Link>
           </li>
           <li className="my-10 montserrat" onClick={toggleMenu}>
-            <Link to="/">Reviews</Link>
+            <Link to="/reviews">Reviews</Link>
           </li>
           <li className="my-10 montserrat" onClick={toggleMenu}>
-            <Link to="/">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
       <Outlet />
       <footer className="bg-white text-gray-700">
     <div className="max-w-4xl mx-auto py-9 px-4 text-center">
-        <h2 className="text-2xl font-semibold mb-4">First Light Photography</h2>
 
-        <p className="mb-2">contact@example.com | (123) 456-7890</p>
+        <p className="mb-2">ashculliford29@gmail.com | 07944 304331</p>
+
+        <a href="https://www.google.com/maps/dir/?api=1&fbclid=IwAR3wT1lAbpZbX3jz-X87LRuNEHP0SPWhtfXif-1bYFgQ9HRp2YKJIXfz5os" className="text-gray-700 hover:text-gray-900">Shepton mallet , Shepton Mallet, United Kingdom</a>
 
         <div className="flex justify-center space-x-4 mt-2">
-            <a href="#" className="text-gray-700 hover:text-gray-900">Instagram</a>
-            <a href="#" className="text-gray-700 hover:text-gray-900">Facebook</a>
+            <a href="https://www.facebook.com/profile.php?id=100086505009009" className="text-gray-700 hover:text-gray-900">Facebook</a>
         </div>
 
         <div className="text-sm text-gray-500 mt-6">

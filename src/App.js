@@ -4,6 +4,8 @@ import Layout from './components/layout';
 import Home from './pages/home'
 import GalleryPage from './pages/gallery';
 import FacebookReviews from './pages/reviews';
+import ContactForm from './pages/contact';
+import NoPage from './pages/nopage';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="gallery" element={<GalleryPage />} />
           <Route path="reviews" element={<FacebookReviews />} />
+          <Route path="contact" element={<ContactForm />} />
+          <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
