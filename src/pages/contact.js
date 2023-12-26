@@ -10,7 +10,7 @@ const ContactForm = () => {
       <div className="icon-container flex justify-center">
         <FontAwesomeIcon icon={faEnvelope} className="mx-auto text-5xl" />
       </div>
-      <form name="contact" method="POST" className="max-w-lg mx-auto montserrat">
+      <form name="contact" method="POST" action="/success" className="max-w-lg mx-auto montserrat">
       <div class="form my-4">
         <input type="hidden" name="form-name" value="contact"/>
         <input type="text" name="name" autocomplete="off" id="name" required />

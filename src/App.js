@@ -6,6 +6,7 @@ import GalleryPage from './pages/gallery';
 import FacebookReviews from './pages/reviews';
 import ContactForm from './pages/contact';
 import NoPage from './pages/nopage';
+import SuccessPage from './pages/success';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <Route path="gallery" element={<GalleryPage />} />
           <Route path="reviews" element={<FacebookReviews />} />
           <Route path="contact" element={<ContactForm />} />
+          <Route path="success" element={<SuccessPage />} />
+
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
