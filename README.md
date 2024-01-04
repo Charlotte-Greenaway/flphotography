@@ -25,10 +25,6 @@
 | Secondary Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
 
-## :warning: License
-
-Distributed under the no License. See LICENSE.txt for more information.
-
 ## :handshake: Contact
 
 Charlotte Greenaway - - charlottegreenaway654@gmail.com
