@@ -23,8 +23,7 @@
 | --------------- | ---------------------------------------------------------------- |
 | Primary Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 | Secondary Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+
 
 ## :warning: License
 
