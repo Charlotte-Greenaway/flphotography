@@ -18,7 +18,7 @@ const Layout = () => {
 
           <li className="flex-grow-0 flex-shrink-0 mx-2 ">
             <div className="border bg-black p-4 relative bottom-[-1em] border-white">
-              <h1 className="parisienne text-white text-3xl 2xl:text-4xl 3xl:text-5xl">First Light</h1>
+              <h1 className="parisienne text-white text-3xl 2xl:text-4xl 3xl:text-5xl">First Look</h1>
             </div>
           </li>
 
@@ -52,7 +52,7 @@ const Layout = () => {
           </li>
           <li className="flex-grow-0 flex-shrink-0  z-3 absolute left-1/2 transform -translate-x-1/2">
             <div className="border border-white bg-black p-4 whitespace-nowrap translate-y-4 absolute left-1/2 transform -translate-x-1/2 fit-content">
-              <h2 className="parisienne text-white text-3xl">First Light</h2>
+              <h2 className="parisienne text-white text-3xl">First Look</h2>
             </div>
           </li>
         </ul>
@@ -77,16 +77,16 @@ const Layout = () => {
       <footer className="bg-white text-gray-700">
     <div className="max-w-4xl mx-auto py-9 px-4 text-center">
 
-        <p className="mb-2">ashculliford29@gmail.com | 07944 304331</p>
+        <p className="mb-2">photographername@photography.com | 07777 777777</p>
 
-        <a href="https://www.google.com/maps/dir/?api=1&fbclid=IwAR3wT1lAbpZbX3jz-X87LRuNEHP0SPWhtfXif-1bYFgQ9HRp2YKJIXfz5os" className="text-gray-700 hover:text-gray-900">Shepton mallet , Shepton Mallet, United Kingdom</a>
+        <a href="https://www.google.com/maps/dir/?api=1&fbclid=IwAR3wT1lAbpZbX3jz-X87LRuNEHP0SPWhtfXif-1bYFgQ9HRp2YKJIXfz5os" className="text-gray-700 hover:text-gray-900">address, city, Country BN00 1OL</a>
 
         <div className="flex justify-center space-x-4 mt-2">
-            <a href="https://www.facebook.com/profile.php?id=100086505009009" className="text-gray-700 hover:text-gray-900">Facebook</a>
+            <a href="https://www.facebook.com/" className="text-gray-700 hover:text-gray-900">Facebook</a>
         </div>
 
         <div className="text-sm text-gray-500 mt-6">
-            © 2023 First Light Photography. All Rights Reserved.
+            © 2024 First Look Photography. All Rights Reserved.
         </div>
     </div>
 </footer>
