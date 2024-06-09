@@ -3,7 +3,7 @@
 <h1>Wedding Photots</h1>
 <p>Wedding photographer website</p>
 
-<h4> <a href=https://main--firstlookphotography.netlify.app/>View Demo</a> <span> · </span> <a href="https://github.com/Charlotte-Greenaway/First Look Photography/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/Charlotte-Greenaway/First Look Photography/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Charlotte-Greenaway/First Look Photography/issues"> Request Feature </a> </h4>
+<h4> <a href=https://firstlook.charlotte-greenaway.com/>View Demo</a> <span> · </span> <a href="https://github.com/Charlotte-Greenaway/First Look Photography/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/Charlotte-Greenaway/First Look Photography/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Charlotte-Greenaway/First Look Photography/issues"> Request Feature </a> </h4>
 
 
 </div>
